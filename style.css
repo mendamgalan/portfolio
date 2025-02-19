@@ -113,7 +113,7 @@ main{
   }
 .left p{
     color: white;
-    font-size: 3vw;
+    font-size: clamp(1rem, 2vw, 1.5rem);
     text-align: center;
     text-shadow: 5px 5px 3px rgb(43, 13, 13,0.3);
 }
@@ -125,7 +125,7 @@ main{
 }
 .name{
     color: rgb(230, 227, 227);
-    font-size: 4vw;
+    font-size: clamp(1rem, 2vw, 1.5rem);
     margin: auto;
     text-align: center;
     text-shadow: 5px 5px 3px rgb(43, 13, 13,0.3);
@@ -136,7 +136,7 @@ main{
 }
 .right p{
     color:rgb(230, 227, 227);
-    font-size: 3vw;
+    font-size: clamp(1rem, 2vw, 1.5rem);
     margin: auto auto 0 auto;
     text-shadow: 5px 5px 3px rgb(43, 13, 13,0.3);   
 }
